@@ -1,3 +1,6 @@
+# Adding data to .gitignore as it is taking lot of time to push code to github
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
