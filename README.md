@@ -1,4 +1,4 @@
-# seattle-calls-data-eda-imt562
+# Seattle Calls Data Analysis
 Interactive Information Visualization Group Project on Seattle Calls Data
 
 ## Setup
