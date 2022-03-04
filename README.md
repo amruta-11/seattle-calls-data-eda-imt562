@@ -3,7 +3,8 @@ Interactive Information Visualization Group Project on Seattle Calls Data
 
 ## Setup
 1. Clone the repo
-2. Create a folder folder named 'data' inside the main folder and copy 'Call_Data(2017-Present).csv' into it
+2. Create a folder folder named 'data' inside the main folder and copy 'Call_Data(2017-Present).csv' into it. Please obtain the data from [Seattle Open Data website.](https://data.seattle.gov/Public-Safety/Call-Data/33kz-ixgy).
+3. Click on 'View Data' use 'Filter' option to get data since 2017. You need to filter the data on 'Original Time Queued' column in the dataset. 
 
 ## Getting the location and calls data in Tableau
 
@@ -14,9 +15,8 @@ Each of these Sectors are divided into between 3 smaller sections called Beats (
 
 1. To get the geographical data of the precincts, sectors and beat use the **Esri ArcGIS Server** and paste the following server link into it:
 https://gisdata.seattle.gov/server/rest/services/SPD/SPD/MapServer/2
-Alternatively this link can be found on this website - https://www.arcgis.com/home/item.html?id=36378b7acb8a464c8019b9618fecd0dd
+Alternatively, the above link can be found on this website - https://www.arcgis.com/home/item.html?id=36378b7acb8a464c8019b9618fecd0dd
 
 2. Add the calls data csv file into Tableau
 
 3. Establish a relation between location and call dataset by going to the 'Edit Relationship' window. Set 'Beat' in Beats2018-present dataset equal to 'Beat1' column in Calls dataset. Set the cardinality to one to many relationaship.
-
